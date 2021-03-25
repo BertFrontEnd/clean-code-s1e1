@@ -1,2 +1,1 @@
-# clean-code-s1e1
-Task name: Clean Code
+# Task name: Clean Code
