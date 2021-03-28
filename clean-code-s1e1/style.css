@@ -164,7 +164,7 @@ ul li.editMode label {
 }
 
 /* Media Query */
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .aaa {
     text-align: center;
