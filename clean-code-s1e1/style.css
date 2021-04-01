@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 400px;
   margin: 0 auto 0;
