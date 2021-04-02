@@ -1,26 +1,26 @@
 /* Basic Style */
-.page {
+.page__app {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.image {
+.app__image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.image img {
+.app__image img {
   width: 100%;
 }
 
-.image .more-info {
+.app__image .image__info {
   font-family: fantasy, cursive;
 }
 
-.main {
+.app__main {
   display: block;
   width: 400px;
   margin: 0 auto 0;
@@ -145,7 +145,7 @@ li > button.delete:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+#main__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -155,19 +155,19 @@ ul li input[type="text"] {
   display: none;
 }
 
-.edit-mode input[type="text"] {
+.incomplete-tasks__edit-mode input[type="text"] {
   display: inline-block;
   width: 51%
 }
 
-.edit-mode label {
+.incomplete-tasks__edit-mode label {
   display: none;
 }
 
 /* Media Query */
 @media (max-width: 768px) {
 
-  .image {
+  .app__image {
     text-align: center;
   }
 
