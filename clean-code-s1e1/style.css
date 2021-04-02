@@ -100,10 +100,6 @@ label[for="new-task"] {
   width: 316px;
 }
 
-p > button:hover {
-  color: #0fc57c;
-}
-
 /* Task list */
 li {
   overflow: hidden;
@@ -128,10 +124,6 @@ li > label {
 
 li > input[type="text"] {
   width: 226px
-}
-
-li > button.delete:hover {
-  color: #cf2323;
 }
 
 .delete img {
