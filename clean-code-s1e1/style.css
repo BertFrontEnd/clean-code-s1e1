@@ -149,7 +149,7 @@ ul li input[type="text"] {
 
 .incomplete-tasks__edit-mode input[type="text"] {
   display: inline-block;
-  width: 51%
+  width: 51%;
 }
 
 .incomplete-tasks__edit-mode label {
